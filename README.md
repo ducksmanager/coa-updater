@@ -27,7 +27,7 @@ Where
 #### 
 
 ```bash
-docker exec -it <container_name> /bin/bash -c "/home/bperel/coa-provision.sh"
+docker exec -it <container_name> /bin/bash -c "/home/scripts/coa-provision.sh"
 ```
 
 Where
