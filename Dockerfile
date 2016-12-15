@@ -1,7 +1,7 @@
 FROM mariadb:10.1
 MAINTAINER Bruno Perel
 
-ADD coa.properties /home/coa.properties
+ADD container.properties /home/container.properties
 ADD scripts /home/scripts
 
 RUN bash -c "chmod a+x /home/scripts/*"

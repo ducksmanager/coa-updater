@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. /home/coa.properties
+. /home/container.properties
 
 inducks_path=/home/inducks
 isv_path=$inducks_path/isv

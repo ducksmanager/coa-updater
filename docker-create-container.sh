@@ -5,7 +5,7 @@ IMAGE_NAME=$1
 CONTAINER_NAME=$2
 HOST_PORT=$3
 
-. coa.properties
+. container.properties
 
 docker network create -d bridge --subnet 172.25.0.0/16 $NETWORK_NAME # TODO ignore error if network already exists
 
